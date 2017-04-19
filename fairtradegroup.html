@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head><!-- Created by Artisteer v4.1.0.59861 -->
+    <meta charset="utf-8">
+    <title>Fair Trade Group</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+<meta name="description" content="Fair Trade Group">
+<meta name="keywords" content="Fair Trade Group Bangladesh">
+
+
+<script>jQuery(function($) {
+    'use strict';
+    if ($.fn.slider) {
+        $(".art-slidecontainer01").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".art-slider-inner", slideContainer);
+            var helper = null;
+
+            if ($.support.transition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".art-slide-item", inner).first().css($.support.transition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+            }
+
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.slider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".art-slidenavigator01"),
+                helper: helper                
+            });
+        });
+    }
+});
+</script><style>.art-content .art-postcontent-0 .layout-item-0 { padding-right: 10px;padding-left: 10px;  }
+.art-content .art-postcontent-0 .layout-item-1 { border-spacing: 10px 0px; border-collapse: separate;  }
+.art-content .art-postcontent-0 .layout-item-2 { border-right-style:solid;border-right-width:1px;border-right-color:#BABABA; color: #171915; background: #D4D4D4;background: rgba(212, 212, 212, 0.1); padding-top: 12px;padding-right: 20px;padding-bottom: 12px;padding-left: 20px; border-radius: 40px;  }
+.art-content .art-postcontent-0 .layout-item-3 { border-right-style:solid;border-right-width:1px;border-right-color:#BABABA; color: #171915; background: #D4D4D4;background: rgba(212, 212, 212, 0.1); padding-top: 25px;padding-right: 20px;padding-bottom: 25px;padding-left: 20px; border-radius: 40px;  }
+.art-content .art-postcontent-0 .layout-item-4 { background: ;  }
+.art-content .art-postcontent-0 .layout-item-5 { background: ; border-spacing: 3px 10px; border-collapse: separate;  }
+.art-content .art-postcontent-0 .layout-item-6 { border-right-style:solid;border-right-width:1px;border-right-color:#BABABA; color: #171915; background: #D4D4D4;background: rgba(212, 212, 212, 0.1); padding-top: 20px;padding-right: 20px;padding-bottom: 9px;padding-left: 20px; border-radius: 30px;  }
+.art-content .art-postcontent-0 .layout-item-7 { background: ; border-spacing: 3px 5px; border-collapse: separate;  }
+.art-content .art-postcontent-0 .layout-item-8 { border-right-style:solid;border-right-width:1px;border-right-color:#BABABA; color: #171915; background: #D4D4D4;background: rgba(212, 212, 212, 0.1); padding: 12px; border-radius: 30px;  }
+.art-content .art-postcontent-0 .layout-item-9 { background: ; border-spacing: 3px 0px; border-collapse: separate;  }
+.art-content .art-postcontent-0 .layout-item-10 { color: #B5BCAE; background: ; padding: 12px; border-radius: 40px;  }
+.art-content .art-postcontent-0 .layout-item-11 { background: ; border-spacing: 10px 0px; border-collapse: separate;  }
+.art-content .art-postcontent-0 .layout-item-12 { border-right-style:solid;border-right-width:1px;border-right-color:#BABABA; color: #171915; background: #D4D4D4;background: rgba(212, 212, 212, 0.1); padding-top: 9px;padding-right: 10px;padding-bottom: 9px;padding-left: 10px; border-radius: 30px;  }
+.art-content .art-postcontent-0 .layout-item-13 { color: #171915; background: #D4D4D4;background: rgba(212, 212, 212, 0.1); padding-top: 9px;padding-right: 10px;padding-bottom: 9px;padding-left: 10px; border-radius: 30px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+
+.art-slidecontainer01 {
+    position: relative;
+        width: 550px;
+    height: 257px;
+        }
+
+.art-slidecontainer01 .art-slide-item
+{
+
+}
+
+
+
+.art-slidecontainer01 .art-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.art-slidecontainer01 .active, .art-slidecontainer01 .next, .art-slidecontainer01 .prev {
+    display: block;
+}
+
+.art-slidecontainer01 .active {
+    opacity: 1;
+}
+
+.art-slidecontainer01 .next, .art-slidecontainer01 .prev {
+    width: 100%;
+}
+
+.art-slidecontainer01 .next.forward, .art-slidecontainer01 .prev.back {
+    opacity: 1;
+}
+
+.art-slidecontainer01 .active.forward {
+    opacity: 0;
+}
+
+.art-slidecontainer01 .active.back {
+    opacity: 0;
+}
+
+
+.art-slide010 {
+    background-image:  url('images/slide010.jpg');
+        background-size:  100%;
+        background-position:  center top;
+    background-repeat: no-repeat;
+}
+.art-slide011 {
+    background-image:  url('images/slide011.jpg');
+        background-size:  100%;
+        background-position:  center top;
+    background-repeat: no-repeat;
+}
+
+
+.art-slidenavigator01 {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 232px;
+  left: 92.73%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+    }
+.art-slidenavigator01
+{
+background: #9C9C9C;background: linear-gradient(top, transparent 0, transparent 100%) no-repeat;background: -webkit-linear-gradient(top, transparent 0, transparent 100%) no-repeat;background: -moz-linear-gradient(top, transparent 0, transparent 100%) no-repeat;background: -o-linear-gradient(top, transparent 0, transparent 100%) no-repeat;background: -ms-linear-gradient(top, transparent 0, transparent 100%) no-repeat;background: linear-gradient(top, transparent 0, transparent 100%) no-repeat;-svg-background: linear-gradient(top, transparent 0, transparent 100%) no-repeat;
+-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;
+
+
+padding:10px;
+
+
+
+
+
+}
+.art-slidenavigator01 > a
+{
+background: #575757;background: #575757;background: #575757;background: #575757;background: #575757;background: #575757;background: #575757;-svg-background: #575757;
+-webkit-border-radius:40%;-moz-border-radius:40%;border-radius:40%;
+
+
+
+margin:0 10px 0 0;
+
+width: 5px;
+
+height: 5px;
+}
+.art-slidenavigator01 > a.active
+{
+background: #FF5B24;background: #FF5B24;background: #FF5B24;background: #FF5B24;background: #FF5B24;background: #FF5B24;background: #FF5B24;-svg-background: #FF5B24;
+-webkit-border-radius:40%;-moz-border-radius:40%;border-radius:40%;
+
+border:1px solid #A82A00;
+
+margin:0 10px 0 0;
+
+width: 5px;
+
+height: 5px;
+}
+.art-slidenavigator01 > a:hover
+{
+background: #A82A00;background: #A82A00;background: #A82A00;background: #A82A00;background: #A82A00;background: #A82A00;background: #A82A00;-svg-background: #A82A00;
+-webkit-border-radius:40%;-moz-border-radius:40%;border-radius:40%;
+
+border:1px solid #E53900;
+
+margin:0 10px 0 0;
+
+width: 5px;
+
+height: 5px;
+}
+
+</style></head>
+<body>
+<div id="art-main">
+<header class="art-header">
+
+
+    <div class="art-shapes">
+<div class="art-object208748955" data-left="0.32%"></div>
+
+            </div>
+
+
+
+
+                        <div id="art-flash-area">
+                    <div id="art-flash-container">
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1228" height="347" id="art-flash-object">
+                        <param name="movie" value="images/flash.swf">
+                        <param name="quality" value="high">
+                    	<param name="scale" value="exactfit">
+                    	<param name="wmode" value="transparent">
+                    	<param name="flashvars" value="color1=0xFFFFFF&amp;alpha1=.50&amp;framerate1=24&amp;loop=true&amp;wmode=transparent">
+                        <param name="swfliveconnect" value="true">
+                        <!--[if !IE]>-->
+                        <object type="application/x-shockwave-flash" data="images/flash.swf" width="1228" height="347">
+                            <param name="quality" value="high">
+                    	    <param name="scale" value="exactfit">
+                            <param name="wmode" value="transparent">
+                                                    	    <param name="flashvars" value="color1=0xFFFFFF&amp;alpha1=.50&amp;framerate1=24&amp;loop=true&amp;wmode=transparent">
+                            <param name="swfliveconnect" value="true">
+                        <!--<![endif]-->
+                          	<div class="art-flash-alt"><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"></a></div>
+                        <!--[if !IE]>-->
+                        </object>
+                        <!--<![endif]-->
+                    </object>
+                    </div>
+                    </div>
+<nav class="art-nav">
+    <div class="art-nav-inner">
+    <ul class="art-hmenu"><li><a href="fairtradegroup.html" class="active">Home</a></li><li><a href="our-companies.html">Our Companies</a><ul><li><a href="our-companies/yarn-processing.html">Yarn Processing</a></li><li><a href="our-companies/fair-washing-ltd.html">Fair Washing Ltd</a></li><li><a href="our-companies/fair-zipper.html">Fair Zipper</a></li><li><a href="our-companies/yarn-twisting.html">Yarn Twisting</a></li><li><a href="our-companies/textile-export.html">Textile Export</a></li><li><a href="our-companies/acrylic.html">Acrylic</a></li><li><a href="our-companies/fair-fashions.html">Fair Fashions</a></li><li><a href="our-companies/fair-packeging.html">Fair Packeging</a></li><li><a href="our-companies/fair-fabrics.html">Fair Fabrics</a></li><li><a href="our-companies/fair-sweing.html">Fair Sweing</a></li></ul></li><li><a href="profile.html">Profile</a></li><li><a href="career.html">Career</a></li><li><a href="contact.html">Contact</a></li></ul> 
+        </div>
+    </nav>
+
+                    
+</header>
+<div class="art-sheet clearfix">
+            <div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-content"><article class="art-post art-article">
+                                
+                                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <p style="widows: 1; text-align: justify;">
+        </p><p style="widows: 1; text-align: justify;">
+        </p><p style="widows: 1; text-align: justify;"></p><div id="01" style="position: relative; display: inline-block; z-index: 0; margin-top: 0px; margin-right: 25px; margin-bottom: 0px; margin-left: 8px;  border-width: 0px;  float: left;" class="art-collage">
+<div class="art-slider art-slidecontainer01" data-width="550" data-height="257">
+    <div class="art-slider-inner">
+<div class="art-slide-item art-slide010">
+
+</div>
+<div class="art-slide-item art-slide011">
+
+</div>
+
+    </div>
+</div>
+<div class="art-slidenavigator art-slidenavigator01" data-left="92.73">
+<a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a>
+</div>
+
+
+
+    </div>
+
+        
+         
+        <p style="widows: 1; text-align: justify;"><span style="font-family: Verdana;"><span style="color: rgb(255, 255, 255);"><span style="font-weight: bold; font-size: 18px;">F</span><span style="font-size: 16px;">air Trade Group is one of the largest Readymade garment composite functional Industrial units in Bangladesh with a vertical set-up of vest production capacity which producing different type of product as per buyer instruction like as woven fabric, Readymade garments, Readymade garments dyeing &amp; washing, Yarn doubling &amp; twisting, Cotton,Acrylic &amp; mixed yarn Dyeing &amp; processing, Swing thread, Carton manufacturing, All type of woven &amp; printed label, Embroidery including all type of Zipper, snap button, Rivet, Buckle, woven tape, twill tape and elastic</span></span><br></span></p><p style="widows: 1; text-align: justify;"><span style="font-family: Verdana; font-size: 16px;"><span style="color: rgb(255, 255, 255);">All company is established with the world’s best quality machineries incorporating the latest technology and operating by local &amp; foreign skilled workforce. Power supply, Gas, Water and all other utilities are available round the clock. The group has its own generator to smooth production for on time delivery &amp; buyer satisfaction in the event of power failure and we also have WTP &amp; ETP plant.</span><br></span></p><p class="Usual" style="text-align: justify;"><span style="color: rgb(255, 255, 255); font-family: Verdana; font-size: 16px;">We pay special attention for quality and best service of our product with providing very low and competitive price.</span></p><p style="text-align: justify;"><span style="color: rgb(255, 255, 255); font-family: Verdana; font-size: 16px;">Fair Trade Group is located at Shafipur, Khaliakor, Gazipur district of 40km away from &nbsp;Dhaka City.The industrial units building are built over 20.63 acres of land that witin one boundary.The Working environment of the factory is very much congenieal with neat and clean atmosphere and we always hold 100% compliance which is International Standard</span></p><p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout layout-item-1">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-2" style="width: 50%" >
+        <h1><span style="color: rgb(255, 255, 255); font-size: 36px; font-weight: bold; font-family: 'Arial Black'; text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.984375) 0px 0px 10px;">&nbsp; &nbsp; &nbsp;</span><span style="color: rgb(255, 255, 255); font-weight: bold; font-family: 'Arial Black'; text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px; font-size: 26px;">OUR COMPANIES</span></h1><p><span style="font-family: 'Comic Sans MS'; font-weight: bold;"><span style="color: rgb(113, 50, 98);">&nbsp;</span></span><span style="color: rgb(255, 255, 255);"><span style="font-weight: bold; font-family: 'Arial Black'; font-size: 14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><a href="our-companies/yarn-processing.html" class="art-button" style="font-size: 12px; font-family: Verdana; font-weight: bold;"><span style="text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px;">FAIR YARN PROCESSING LTD</span></a> <span style="font-weight: bold; font-family: 'Arial Black'; font-size: 14px;">&nbsp;</span></span></p><p style="padding-left: 60px; text-align: left;">&nbsp;<a href="our-companies/fair-zipper.html" class="art-button" style="font-size: 12px; font-family: Verdana; font-weight: bold;">FAIR ZIPPER&amp; YARN DYEING MILLS LTD</a>&nbsp;<span style="font-weight: bold; color: rgb(255, 255, 255); font-family: 'Arial Black';"><span style="font-size: 14px;"><br></span></span></p><p style="padding-left: 60px; text-align: left;">&nbsp;<a href="our-companies/fair-washing-ltd.html" class="art-button" style="font-family: Verdana; font-size: 12px; font-weight: bold;">FAIR WASHING LTD</a>&nbsp;<br></p><p style="padding-left: 60px; text-align: left;">&nbsp;<a href="our-companies/fair-fabrics.html" class="art-button" style="font-family: Verdana; font-size: 12px; font-weight: bold;">FAIR TRADE FABRICS LTD</a> &nbsp;<br></p><p style="padding-left: 60px; text-align: left;">&nbsp;<a href="our-companies/fair-fashions.html" class="art-button" style=" font-family: Verdana; font-size: 12px; font-weight: bold;">FAIR FASHION LTD</a>&nbsp;<br></p><p style="padding-left: 60px; text-align: left;">&nbsp;<a href="our-companies/textile-export.html" class="art-button" style="font-family: Verdana; font-size: 12px; font-weight: bold;">FAIR TEXTILE EXPORT LTD</a> &nbsp;<br></p><p style="padding-left: 60px; text-align: left;">&nbsp;<a href="our-companies/acrylic.html" class="art-button" style="font-family: Verdana; font-size: 12px; font-weight: bold;">FAIR ACRYLIC YARN PROCESSING LTD</a>&nbsp;<br></p><p style="padding-left: 60px; text-align: left;">&nbsp;<a href="our-companies/yarn-twisting.html" class="art-button" style="font-family: Verdana; font-size: 12px; font-weight: bold;">FAIR YARN TWISTING INDUSTRIES LTD</a>&nbsp;<br></p><p style="padding-left: 60px; text-align: left;">&nbsp;<a href="our-companies/fair-sweing.html" class="art-button" style="font-family: Verdana; font-size: 12px; font-weight: bold;">FAIR SEWING THREADS LTD</a>&nbsp;<br></p><p style="padding-left: 60px; text-align: left;">&nbsp;<a href="our-companies/fair-packeging.html" class="art-button" style="font-family: Verdana; font-size: 12px; font-weight: bold;">FAIR PACKEGING LTD</a>&nbsp;</p>
+    </div><div class="art-layout-cell layout-item-3" style="width: 50%" >
+        <h1><span style="color: rgb(255, 255, 255); font-family: 'Arial Black'; font-weight: bold; text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px; font-size: 24px;">Message From Managing Director</span></h1>
+        <p>
+        </p><p>
+        </p><p>
+        </p><p style="text-align: justify;"><a href="md.html"><img width="229" height="229" alt="" src="images/Stamp.png" style="float: right; margin-top: 50px; margin-right: 25px; margin-left: 25px;" class=""></a></p><p style="text-align: justify;"><br></p><p style="text-align: left;"><span style="font-family: Verdana;"><span style="color: rgb(255, 255, 255);"><span style="font-size: 18px; font-weight: bold;">F</span><span style="font-size: 16px;">air Trade Group is one of the largest woven composite function industry in Bangladesh with a complete vertical set-up of 
+         
+         vast production capacity which manufactures and produces: woven fabrics, apparels, garment dyeing, denim washing, yarn 
+         
+         dyeing and processing including zippers (Metal, Vislon and Nylon), snap buttons, woven tape and elastic.</span></span><span style="font-size: 16px; color: rgb(255, 255, 255);"><br></span></span></p><p style="text-align: justify;"><span style="color: rgb(255, 255, 255); font-family: Verdana; font-size: 16px;"><br></span></p><p><span style="font-family: Verdana; font-size: 16px;"><span style="color: rgb(255, 255, 255);">The Factories are located 40km away from Dhaka City in Shafipur of Gazipur district that comprises of the most modern 
+         
+         machineries and is operated by foreign skilled workforce. The factory buildings are built over approximately 16.5 acres of 
+         
+         land that is within one boundary and is in 100% compliance with International Standards.</span></span> <span style="font-family: 'Arial Black'; font-size: 14px; color: #FFFFFF;"><br></span></p><p style="text-align: justify;"><span style="font-family: 'Arial Black'; color: rgb(255, 255, 255); font-size: 15px;"><br></span></p><p style="text-align: justify;">&nbsp;<a href="md.html" class="art-button">Read More</a>&nbsp;<span style="font-family: 'Arial Black'; color: rgb(255, 255, 255); font-size: 15px;"><br></span></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout layout-item-4" id="11112">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout layout-item-5" id="1111">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-6" style="width: 100%" >
+        <h1 style="color: rgb(133, 133, 133);"><span style="color: rgb(255, 255, 255); font-family: 'Arial Black'; font-size: 24px;">FAIR YARN PROCESSING LTD</span><br></h1><h1 style="color: rgb(133, 133, 133);"><span style="color: rgb(196, 202, 191); -webkit-border-horizontal-spacing: 3px;"><span style="font-family: 'Arial Black';"><span style="text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px; color: rgb(255, 255, 255);"><img width="600" height="257" alt="" class="art-lightbox" src="images/005.jpg" style="float: right; margin-right: 25px; margin-left: 25px;"></span></span></span></h1><p class="MsoNormal" style="color: rgb(18, 19, 16); text-align: justify;"><span style="font-family: Verdana; color: rgb(255, 255, 255); font-size: 18px; font-weight: bold;"><br></span></p><p class="MsoNormal" style="color: rgb(18, 19, 16); text-align: left;"><span style="font-family: Verdana; color: rgb(255, 255, 255); font-size: 18px; font-weight: bold;">W</span><span style="font-size: 16px; font-family: Verdana; color: rgb(255, 255, 255);">e have set up top quality yarn processing machineries in corporation the latest technology imported from Germany , &nbsp; Italy, Taiwan &amp; China. Run By Professional skilled technician adn management who are highly experienced more then Ten (10) years in Yarn Dyeing Sector at home abroad . Our Technicians , staff and skilled workers are truly Professional and fully dedicated to their respective assignment .</span></p><p class="MsoNormal" style="color: rgb(18, 19, 16); text-align: left;"><br></p><p class="MsoNormal" style="color: rgb(18, 19, 16); text-align: left;"><span style="color: rgb(255, 255, 255); font-size: 16px; font-family: Verdana;">The working environment of the factory is very much congenial with neat and clean atmosphere.Power supply , Gas, Water and all other utilities are available round the clock. The factory have its own generator to continue working in the event of power failure. We also have own water treatment plant and ETP plant imported from India. We Process various kids of Yarn like- Cotton &amp; mxed Yarn. e believe that in Bangladesh we are the first Yarn Dyeing Factory to start at time highest capacity production&nbsp;</span></p><p class="MsoNormal" style="color: rgb(18, 19, 16); text-align: justify;"><span style="color: rgb(255, 255, 255); font-size: 16px; font-family: Verdana;"><br></span></p><h1>&nbsp;<a href="our-companies/yarn-processing.html" class="art-button">Read More</a>&nbsp;<span style="color: rgb(255, 255, 255); font-family: 'Arial Black'; -webkit-border-horizontal-spacing: 3px;"><br></span></h1>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout layout-item-7" id="111121">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-8" style="width: 100%" >
+        <h1 style="text-align: right;"><img width="600" height="257" alt="" class="art-lightbox" src="images/003.jpg" style="float: left; margin-top: 25px; margin-right: 25px; margin-bottom: 25px; margin-left: 25px;"><span style="color: rgb(196, 202, 191);"><span style="color: rgb(196, 202, 191);"><span style="color: rgb(255, 255, 255); font-family: 'Arial Black'; text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px; font-size: 24px;">FAIR WASHING LTD</span></span></span></h1><p style="text-align: justify;"><span style="font-family: Verdana; color: rgb(255, 255, 255);"><span style="font-weight: bold; font-size: 18px;">W</span><span style="font-size: 16px;">e are proud to introduce ourselves as a newly established standard quality yarn dyeing factory ( A sister concern of Fair Trade group) situated at East Chandra, Shafipur, Kaliakoir, Gazipur, near Dhaka city. Established with the world’s best quality machineries incorporating the latest technology imported from Germany, Italy, Taiwan &amp; China. The Factory is run by professional skilled technician &amp; management, who have highly experienced more then ten(10) years in yarn dyeing sector in home and aboard. Our technician, staff and skilled workers are truly professional and fully dedicated to their respective assignments.</span></span></p><p style="text-align: center;"><span style="font-family: Verdana; color: rgb(255, 255, 255);"><span style="font-size: 16px;"><br></span></span></p><p style="text-align: center;">&nbsp;<a href="our-companies/fair-washing-ltd.html" class="art-button">Read More</a>&nbsp;<span style="font-family: Verdana; color: rgb(255, 255, 255);"><span style="font-size: 16px;"><br></span></span></p><p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout layout-item-9" id="11112111">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-8" style="width: 100%" >
+        <h1><span style="color: rgb(255, 255, 255); font-family: 'Arial Black'; font-weight: bold; font-size: 24px;">FAIR ZIPPER &amp; YARN DYEING MILLS LTD</span><br></h1><h1><span style="color: rgb(196, 202, 191);"><span style="color: rgb(255, 255, 255);"><span style="font-weight: bold; text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px; font-family: 'Arial Black';"><img width="600" height="257" alt="" class="art-lightbox" src="images/009.jpg" style="float: right; margin-top: 1px; margin-right: 25px; margin-bottom: 25px; margin-left: 25px;"></span></span></span></h1><p><span style="color: rgb(255, 255, 255); font-family: Verdana;"><span style="font-size: 18px; font-weight: bold;"><br></span></span></p><p><span style="color: rgb(255, 255, 255); font-family: Verdana;"><span style="font-size: 18px; font-weight: bold;">F</span><span style="font-size: 16px;">air Zipper &amp; Yarn Dyeing Mills Ltd is a 100% export oriented Garments manufacturing accessories producing factory. The production unit is a sister concern of Fair Trade Group and its producing different size of Metal, Plastic ,Nylon Zipper and All type of Metal Button, Rivet, Buckle, D-ring, Twill Tape, Harring Bone Tape, Yarn Dyed Belt, Eleastic etc.</span></span><br></p><p><span style="color: rgb(255, 255, 255); font-family: Verdana;"><span style="font-size: 16px;"><br></span></span></p><p>&nbsp;<a href="our-companies/fair-zipper.html" class="art-button">Read More</a>&nbsp;<span style="color: rgb(255, 255, 255); font-family: Verdana;"><span style="font-size: 16px;"><br></span></span></p><p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout layout-item-9" id="1111211111">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-10" style="width: 100%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout layout-item-11" id="11111">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-12" style="width: 50%" >
+        <p style="text-align: left;"><img width="75" height="67" alt="" class="art-lightbox" src="images/Gears.png" style="float: left;"><span style="color: rgb(255, 255, 255); font-family: 'Arial Black'; font-size: 20px;"><br></span></p><p style="text-align: left;"><span style="color: rgb(255, 255, 255); font-size: 20px; font-family: Verdana;">MACHINERIES &amp; PICTURE GALLERY</span></p><p style="text-align: left;"><span style="color: rgb(255, 255, 255); font-size: 20px; font-weight: bold;"></span></p>
+    </div><div class="art-layout-cell layout-item-12" style="width: 50%" >
+        <h2 style="font-size: 20px; text-align: center;"><img width="64" height="64" alt="" class="art-lightbox" src="images/consulting-3.png" style="float: right;"><br></h2><p style="text-align: right;"><span style="color: rgb(153, 153, 153); font-size: 20px;"><a href="corporate-responsibility.html"><span style="color: rgb(255, 255, 255); text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px; font-family: Verdana;">CROPORATE RESPONSIBILITY</span></a></span><br></p><p style="text-align: left;"><span style="font-size: 20px; font-family: 'Arial Black'; color: rgb(255, 255, 255); text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.984375) 0px 0px 10px;"></span></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout layout-item-4" id="111">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout layout-item-4" id="113">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 25%" >
+        <p><br></p>
+    </div><div class="art-layout-cell layout-item-0" style="width: 50%" >
+        <h1 style="text-align: center;"><span style="font-size: 28px;"><span style="font-weight: bold; text-shadow: #FFFFFF 1.4px 1.4px 0px, rgba(23, 23, 23, 0.792969) 2.1px 2.1px 0px; color: #7AFFB4;"><marquee behavior="scroll" direction="left">OUR COMMITMENT IS OUR CUSTOMERS' SATISFACTION "</marquee></span></span></h1>
+    </div><div class="art-layout-cell layout-item-0" style="width: 25%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout layout-item-4" id="112">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout layout-item-11" id="1">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-13" style="width: 33%" >
+        <p style="text-align: center;"><img width="130" height="145" alt="" class="art-lightbox" src="images/logo.jpg"></p><p style="text-align: center;"><span style="font-weight: bold;"><span style="color: rgb(253, 252, 253); font-size: 26px; text-shadow: rgba(153, 153, 153, 0.792969) 0.7px 0.7px 0px, rgba(140, 140, 140, 0.792969) 1.4px 1.4px 0px, rgba(122, 122, 122, 0.496094) 2.1px 2.1px 1px, rgba(107, 107, 107, 0.496094) 2.8px 2.8px 0px, rgba(92, 92, 92, 0.476563) 3.5px 3.5px 0px;"><span style="font-family: 'Arial Black'; text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.984375) 0px 0px 10px;"></span></span></span></p><h1 style="text-align: center;"><span style="font-family: 'Arial Black'; color: rgb(255, 255, 255); text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px; font-size: 24px;">The Directors</span></h1><p style="text-align: justify;"><span style="color: rgb(255, 255, 255); font-family: Verdana;"><span style="font-weight: bold; font-size: 16px;">F</span><span style="font-size: 14px;">air Trade Group is one of the largest woven composite function industry in Bangladesh with a complete vertical set-up of vast production capacity which manufactures and produces: woven fabrics, apparels, garment dyeing, denim washing,</span></span></p><p style="text-align: center;"><span style="color: rgb(255, 255, 255); font-family: 'Comic Sans MS';"><a href="directors.html" class="art-button">Read More</a></span></p><p>
+        </p>
+    </div><div class="art-layout-cell layout-item-12" style="width: 34%" >
+        <h5 style="color: rgb(255, 255, 255); text-align: center;"><img width="130" height="145" alt="" class="art-lightbox" src="images/logo-2.jpg"></h5><h5 style="text-align: center; color: rgb(255, 255, 255);"><span style="color: rgb(253, 252, 253); font-weight: bold;"><span style="font-family: 'Arial Black'; text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px; font-size: 24px;">About us</span></span><br></h5><p style="color: rgb(255, 255, 255); text-align: justify;"><span style="font-family: Verdana;"><span style="font-weight: bold; font-size: 16px;">F</span><span style="font-size: 14px;">air Trade Group is one of the largest woven composite function industry in Bangladesh with a complete vertical set-up of vast production capacity which manufactures and produces: woven fabrics, apparels, garment dyeing, denim washing,</span><span style="font-size: 14px; font-weight: bold;">&nbsp;</span><br></span></p><p style="color: rgb(255, 255, 255); text-align: center;"><a href="our-companies.html" class="art-button" style="font-family: Verdana; font-weight: bold;">Read More</a><span style="font-weight: bold;">&nbsp;</span></p><p><br></p>
+    </div><div class="art-layout-cell layout-item-12" style="width: 33%" >
+        <h5 style="color: rgb(255, 255, 255); text-align: center;"><span style="color: rgb(255, 255, 255);"><img width="130" height="145" alt="" class="art-lightbox" src="images/logo-3.jpg"></span></h5><h5 style="text-align: center;"><span style="color: rgb(255, 255, 255);"><span style="color: rgb(253, 252, 253); font-weight: bold; font-family: 'Arial Black'; text-shadow: rgb(23, 23, 23) 1px 0px 0px, rgb(23, 23, 23) -1px 0px 0px, rgb(23, 23, 23) 0px -1px 0px, rgb(23, 23, 23) 0px 1px 0px, rgba(0, 0, 0, 0.980469) 0px 0px 10px; font-size: 24px;">Company Profile</span></span></h5><p style="text-align: justify;"><span style="color: rgb(255, 255, 255); font-family: Verdana; font-size: 16px; font-weight: bold;">F</span><span style="color: rgb(255, 255, 255); font-size: 14px; font-family: Verdana;">air Trade Fabrics Ltd was the start-up company and was incorporated late in the 1997, owned by its principal founders Mr Jasim Ahmed And Mrs Yeasmin Ahmed at 75% and 25% ownership each. Fair Washing Ltd and Fair Zipper &amp; Yarn Dyeing Mills Ltd&nbsp;</span><br></p><p style="text-align: center;"><a href="profile.html" class="art-button">Read More</a>&nbsp;<br></p>
+    </div>
+    </div>
+</div>
+</div>
+
+
+</article></div>
+                    </div>
+                </div>
+            </div><footer class="art-footer">
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 50%">
+        <p><br></p>
+        <p style="text-align: left;"><span style="font-weight: bold; color: rgb(212, 212, 212);"><span style="color: #D4D4D4;">&nbsp; Copyright © 2017</span><span style="color: #D4D4D4;">. All Rights Reserved.</span></span></p>
+        <p><span style="font-weight: bold; color: #D4D4D4;">&nbsp; Designed And powered By Fair IT</span></p>
+    </div><div class="art-layout-cell layout-item-0" style="width: 50%">
+        <p style="float:right;"><a href="https://www.youtube.com/watch?v=FPX0EybNz-g&amp;feature=youtu.be"><img width="48" height="57" alt="" src="images/YouTube-Logo-1-psd52809.png" class=""></a><a href="https://www.facebook.com/ftgbd"><img width="50" height="50" alt="" src="images/1-facebook-logo.png" class=""></a><a href="http://webmail.fairtradegroupbd.com"><img width="48" height="44" alt="" src="images/mail_imag.png"></a></p>
+    </div>
+    </div>
+</div>
+
+</footer>
+
+    </div>
+</div>
+
+
+</body></html>
